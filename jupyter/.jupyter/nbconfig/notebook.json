@@ -1,0 +1,15 @@
+{
+  "CodeCell": {
+    "cm_config": {
+      "indentUnit": 2
+    }
+  },
+  "load_extensions": {
+    "usability/scratchpad/main": true,
+    "usability/ruler/main": true,
+    "usability/toggle_all_line_numbers/main": true
+  },
+  "ruler_column": [
+    "79"
+  ]
+}

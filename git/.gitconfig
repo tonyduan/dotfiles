@@ -1,0 +1,11 @@
+[user]
+	email = tony@tonyduan.com
+	name = Tony Duan
+[push]
+	default = simple
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[core]
+	excludesfile = /Users/tony/.gitignore_global

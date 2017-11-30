@@ -1,0 +1,13 @@
+
+    Personal dotfiles and logs of installed packages.
+
+Last update: December 2017.
+
+Usage [to update symlinks in the home directory]:
+
+    stow [ package name here ] -t ~/
+
+To generate brewfile.txt:
+
+    brew bundle dump
+
