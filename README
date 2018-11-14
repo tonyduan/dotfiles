@@ -7,3 +7,7 @@ Usage [to update symlinks in the home directory]:
 
     stow [ package name here ] -t ~/
 
+Note Homebrew usage:
+
+    brew bundle dump # create list of installed packages
+    brew bundle      # install from brewfile
