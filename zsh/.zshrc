@@ -10,12 +10,6 @@ export ZSH="/Users/tony/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -80,22 +74,7 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='vim'
 # else
 #   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# fi # Compilation flags # export ARCHFLAGS="-arch x86_64"
 
 # Fix the behavior of ls
 alias l='gls -l --color=auto --group-directories-first'
@@ -104,11 +83,8 @@ alias ll='gls -l --color=auto --group-directories-first'
 
 # Aliases to make life easier
 alias texpad='open -a Texpad.app'
+alias typora='open -a Typora.app'
 
+# Path
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/tony/.vimpkg/bin"
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/tony/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/tony/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/tony/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/tony/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
