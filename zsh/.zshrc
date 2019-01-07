@@ -62,19 +62,10 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+# User configuration below 
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi # Compilation flags # export ARCHFLAGS="-arch x86_64"
+export EDITOR='vim'
 
 # Fix the behavior of ls
 alias l='gls -l --color=auto --group-directories-first'
@@ -85,6 +76,7 @@ alias ll='gls -l --color=auto --group-directories-first'
 alias texpad='open -a Texpad.app'
 alias typora='open -a Typora.app'
 
-# Path
+# Path fixes
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/tony/.vimpkg/bin"
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 
