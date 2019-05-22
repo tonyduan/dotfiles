@@ -7,6 +7,7 @@ i amsmath: AMS mathematical facilities for LaTeX
 i anysize: A simple package to set up document margins
 i arabxetex: An ArabTeX-like interface for XeLaTeX
 i automata: Finite state machines, graphs and trees in MetaPost
+i avantgar: URW "Base 35" font pack for LaTeX
 i awesomebox: Draw admonition blocks in your documents, illustrated with FontAwesome icons
 i babel: Multilingual support for Plain TeX or LaTeX
 i babel-basque: Babel contributed support for Basque
@@ -26,6 +27,7 @@ i babel-spanish: Babel support for Spanish
 i babel-swedish: Babel support for typesetting Swedish
 i babelbib: Multilingual bibliographies
 i bbcard: Bullshit bingo, calendar and baseball-score cards
+i bbding: A symbol (dingbat) font and LaTeX macros for its use
 i bbm: "Blackboard-style" cm fonts
 i bbm-macros: LaTeX support for "blackboard-style" cm fonts
 i beamer: A LaTeX class for producing presentations and slides
@@ -37,23 +39,33 @@ i bidipagegrid: Bidi-aware page grid in background
 i bidipresentation: Experimental bidi presentation
 i bidishadowtext: Bidi-aware shadow text
 i blockdraw_mp: Block diagrams and bond graphs, with MetaPost
+i bookman: URW "Base 35" font pack for LaTeX
 i booktabs: Publication quality tables in LaTeX
 i bpolynomial: Drawing polynomial functions of up to order 3
 i breqn: Automatic line breaking of displayed equations
+i businesscard-qrcode: Business cards with QR-Code
 i caption: Customising captions in floating environments
 i carlisle: David Carlisle's small packages
+i charter: Charter fonts
 i cite: Improved citation handling in LaTeX
 i cm: Computer Modern fonts
+i cm-super: CM-Super family of fonts
 i cmap: Make PDF files searchable and copyable
 i cmarrows: MetaPost arrows and braces in the Computer Modern style
+i cmextra: Knuth's local information
 i collection-basic: Essential programs and files
+i collection-fontsrecommended: Recommended fonts
 i collection-latex: LaTeX fundamental packages
 i collection-latexrecommended: LaTeX recommended packages
 i collection-metapost: MetaPost and Metafont packages
 i collection-xetex: XeTeX and packages
+i colorprofiles: Collection of free ICC profiles
 i colortbl: Add colour to LaTeX tables
+i courier: URW "Base 35" font pack for LaTeX
+i cqubeamer: LaTeX Beamer Template for Chongqing University
 i crop: Support for cropmarks
 i ctable: Flexible typesetting of table and figure floats using key/value directives
+i dehyph: German hyphenation patterns for traditional orthography
 i drv: Derivation trees with MetaPost
 i dviincl: Include a DVI page into MetaPost output
 i dvipdfmx: An extended version of dvipdfm
@@ -73,6 +85,8 @@ i etex-pkg: E-TeX support package
 i etoolbox: e-TeX tools for LaTeX
 i euenc: Unicode font encoding definitions for XeTeX
 i euler: Use AMS Euler fonts for math
+i euro: Provide Euro values for national currency amounts
+i euro-ce: Euro and CE sign font
 i eurosym: Metafont and macros for Euro sign
 i expressg: Diagrams consisting of boxes, lines, and annotations
 i exteps: Include EPS figures in MetaPost
@@ -87,12 +101,15 @@ i feynmp-auto: Automatic processing of feynmp graphics
 i filehook: Hooks for input files
 i fix2col: Fix miscellaneous two column mode features
 i fixlatvian: Improve Latvian language support in XeLaTeX
+i fiziko: A MetaPost library for physics textbook illustrations
 i float: Improved interface for floating objects
 i font-change-xetex: Macros to change text and mathematics fonts in plain XeTeX
 i fontbook: Generate a font book
 i fontspec: Advanced font selection in XeLaTeX and LuaLaTeX
 i fontwrap: Bind fonts to specific unicode blocks
+i footnotehyper: hyperref aware footnote.sty
 i fp: Fixed point arithmetic
+i fpl: SC and OsF fonts for URW Palladio L
 i framed: Framed or shaded regions that can break across pages
 i garrigues: MetaPost macros for the reproduction of Garrigues' Easter nomogram
 i geometry: Flexible and complete interface to document dimensions
@@ -104,6 +121,7 @@ i graphics-def: Colour and graphics option files
 i gsftopk: Convert "Ghostscript fonts" to PK files
 i gsftopk.x86_64-darwin: x86_64-darwin files of gsftopk
 i hatching: MetaPost macros for hatching interior of closed paths
+i helvetic: URW "Base 35" font pack for LaTeX
 i hyperref: Extensive support for hypertext in LaTeX
 i hyph-utf8: Hyphenation patterns expressed in UTF-8
 i hyphen-base: core hyphenation support files
@@ -146,6 +164,7 @@ i latexmp: Interface for LaTeX-based typesetting in MetaPost
 i lineno: Line numbers on paragraphs
 i listings: Typeset source code listings using LaTeX
 i lm: Latin modern fonts in outline formats
+i lm-math: OpenType maths fonts for Latin Modern
 i ltxmisc: Miscellaneous LaTeX packages, etc
 i lua-alt-getopt: Process application arguments the same way as getopt_long
 i lualibs: Additional Lua functions for LuaTeX macro programmers
@@ -160,6 +179,9 @@ i makecell: Tabular column heads and multilined cells
 i makecmds: The new \makecommand command always (re)defines a command
 i makeindex: Makeindex development sources
 i makeindex.x86_64-darwin: x86_64-darwin files of makeindex
+i manfnt-font: Knuth's "manual" fonts
+i marvosym: Martin Vogel's Symbols (marvosym) font
+i mathpazo: Fonts to typeset mathematics to match Palatino
 i mathspec: Specify arbitrary fonts for mathematics in XeTeX
 i mathtools: Mathematical tools to use with amsmath
 i mcf2graph: Draw chemical structure diagrams with Metafont/MetaPost
@@ -172,9 +194,11 @@ i metalogo: Extended TeX logo macros
 i metaobj: MetaPost package providing high-level objects
 i metaplot: Plot-manipulation macros for use in MetaPost
 i metapost: A development of Metafont for creating graphics
+i metapost-colorbrewer: An implementation of the colorbrewer2.org colours for MetaPost
 i metapost.x86_64-darwin: x86_64-darwin files of metapost
 i metauml: MetaPost library for typesetting UML diagrams
 i mflogo: LaTeX support for Metafont logo fonts
+i mflogo-font: Metafont logo font
 i mfnfss: Packages to typeset oldgerman and pandora fonts in LaTeX
 i mfpic: Draw Metafont/post pictures from (La)TeX commands
 i mfpic4ode: Macros to draw direction fields and solutions of ODEs
@@ -193,8 +217,10 @@ i ms: Various LaTeX packages by Martin Schroder
 i multirow: Create tabular cells spanning multiple rows
 i na-position: Tables of relative positions of curves and asymptotes or tangents in Arabic documents
 i natbib: Flexible bibliography support
+i ncntrsbk: URW "Base 35" font pack for LaTeX
 i ntgclass: "European" versions of standard classes
 i oberdiek: A bundle of packages submitted by Heiko Oberdiek
+i palatino: URW "Base 35" font pack for LaTeX
 i parskip: Layout with zero \parindent, non-zero \parskip
 i pdfpages: Include PDF documents in LaTeX
 i pdftex: A TeX extension for direct creation of PDF
@@ -211,13 +237,16 @@ i pslatex: Use PostScript fonts by default
 i psnfss: Font support for common PostScript fonts
 i pspicture: PostScript picture support
 i ptext: A 'lipsum' for Persian
+i pxfonts: Palatino-like fonts in support of mathematics
 i quran: An easy way to typeset any part of The Holy Quran
+i quran-de: German translations to the quran package
 i rcs: Use RCS (revision control system) tags in LaTeX documents
 i realscripts: Access OpenType subscript and superscript glyphs
 i repere: Diagrams for school mathematics
 i revtex: Styles for various Physics Journals
 i roex: Metafont-PostScript conversions
 i roundrect: MetaPost macros for highly configurable rounded rectangles (optionally with text)
+i rsfs: Ralph Smith's Formal Script font
 i sansmath: Maths in a sans font
 i scheme-basic: basic scheme (plain and latex)
 i scheme-infraonly: infrastructure-only scheme (no TeX at all)
@@ -235,12 +264,16 @@ i slideshow: Generate slideshow with MetaPost
 i splines: MetaPost macros for drawing cubic spline interpolants
 i suanpan: MetaPost macros for drawing Chinese and Japanese abaci
 i subfig: Figures broken into subfigures
+i symbol: URW "Base 35" font pack for LaTeX
 i synctex: engine-level feature synchronizing output and source
 i synctex.x86_64-darwin: x86_64-darwin files of synctex
 i tabu: Flexible LaTeX tabulars
 i tetex: scripts and files originally from teTeX
 i tetex.x86_64-darwin: x86_64-darwin files of tetex
+i tetragonos: Four-Corner codes of Chinese characters
 i tex: A sophisticated typesetting engine
+i tex-gyre: TeX Fonts extending freely available URW fonts
+i tex-gyre-math: Maths fonts to match tex-gyre text fonts
 i tex-ini-files: Model TeX format creation files
 i tex.x86_64-darwin: x86_64-darwin files of tex
 i texlive-common: TeX Live documentation (common elements)
@@ -262,9 +295,12 @@ i times: URW "Base 35" font pack for LaTeX
 i tipa: Fonts and macros for IPA phonetics characters
 i titlesec: Select alternative section titles
 i titling: Control over the typesetting of the \maketitle command
+i tlshell: (shortdesc missing)
+i tlshell.x86_64-darwin: x86_64-darwin files of tlshell
 i tools: The LaTeX standard tools bundle
 i translator: Easy translation of strings in LaTeX
 i trimspaces: Trim spaces around an argument or within a macro
+i txfonts: Times-like fonts in support of mathematics
 i typehtml: Typeset HTML directly from LaTeX
 i ucharcat: Implementation of the (new in 2015) XeTeX \Ucharcat command in lua, for LuaTeX
 i ucharclasses: Font actions in XeTeX according to what is being processed
@@ -277,7 +313,11 @@ i unisugar: Define syntactic sugar for Unicode LaTeX
 i updmap-map: auto-generated font map files
 i upquote: Show "realistic" quotes in verbatim
 i url: Verbatim with URL-sensitive line breaks
+i utopia: Adobe Utopia fonts
 i varwidth: A variable-width minipage
+i wasy: The wasy fonts (Waldi symbol fonts)
+i wasy2-ps: Type 1 versions of wasy2 fonts
+i wasysym: LaTeX support file to use the WASY2 fonts
 i wrapfig: Produces figures which text can flow around
 i xcolor: Driver-independent color extensions for LaTeX and pdfLaTeX
 i xdvi: A DVI previewer for the X Window System
@@ -302,4 +342,5 @@ i xevlna: Insert non-breakable spaces using XeTeX
 i xkeyval: Extension of the keyval package
 i xltxtra: "Extras" for LaTeX users of XeTeX
 i xunicode: Generate Unicode characters from accented glyphs
+i zapfchan: URW "Base 35" font pack for LaTeX
 i zapfding: URW "Base 35" font pack for LaTeX

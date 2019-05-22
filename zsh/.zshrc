@@ -80,3 +80,5 @@ alias typora='open -a Typora.app'
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/tony/.vimpkg/bin"
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 
+export RETICULATE_PYTHON="/usr/local/bin/python3"
+

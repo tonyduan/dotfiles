@@ -371,7 +371,7 @@ xtick.top            : True   # draw ticks on the top side
 #xtick.minor.pad      : 3.4      # distance to the minor tick label in points
 #xtick.color          : k      # color of the tick labels
 #xtick.labelsize      : medium # fontsize of the tick labels
-xtick.direction      : in    # direction: in, out, or inout
+xtick.direction      : out    # direction: in, out, or inout
 #xtick.minor.visible  : False  # visibility of minor ticks on x-axis
 #xtick.major.top      : True   # draw x axis top major ticks
 #xtick.major.bottom   : True   # draw x axis bottom major ticks
