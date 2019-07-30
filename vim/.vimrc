@@ -14,5 +14,8 @@ set expandtab
 set autoindent
 
 " plugins
-nnoremap <leader>o :CtrlP<Cr>
-let g:ctrlp_show_hidden = 1
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+set runtimepath^=~/.vim/bundle/nerdtree.vim
+autocmd vimenter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
