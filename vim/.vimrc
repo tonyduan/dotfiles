@@ -6,6 +6,8 @@ set number
 set mouse=a
 set nowrap
 set ruler
+set colorcolumn=80
+autocmd BufWritePre * :%s/\s+$//e
 
 " python
 set tabstop=4

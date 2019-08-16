@@ -77,6 +77,7 @@ alias gpull='git pull origin master'
 # Aliases to make life easier
 alias texpad='open -a Texpad.app'
 alias typora='open -a Typora.app'
+alias mvim='open -a Macvim.app'
 
 # Path fixes
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/tony/.vimpkg/bin"
