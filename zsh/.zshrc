@@ -73,6 +73,7 @@ alias ls='gls -l --color=auto --group-directories-first'
 alias ll='gls -l --color=auto --group-directories-first'
 alias gpush='git push origin master'
 alias gpull='git pull origin master'
+alias gamend='git commit --amend'
 
 # Aliases to make life easier
 alias texpad='open -a Texpad.app'
