@@ -1,6 +1,6 @@
 ### Personal dotfiles and logs of installed packages.
 
-Last update: November 2018.
+Last update: January 2020.
 
 ---
 
