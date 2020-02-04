@@ -67,17 +67,18 @@ source $ZSH/oh-my-zsh.sh
 # Preferred editor for local and remote sessions
 export EDITOR='vim'
 
-# Fix the behavior of ls
+# Fix the behavior of ls and find
 alias l='gls -l --color=auto --group-directories-first'
 alias ls='gls -l --color=auto --group-directories-first'
 alias ll='gls -l --color=auto --group-directories-first'
-alias gpush='git push origin master'
-alias gpull='git pull origin master'
-alias gamend='git commit --amend'
+alias find='find . -name'
 
 # Aliases to make life easier
 alias texpad='open -a Texpad.app'
 alias typora='open -a Typora.app'
+alias gpush='git push origin master'
+alias gpull='git pull origin master'
+alias gamend='git commit --amend'
 
 # Path fixes
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/tony/.vimpkg/bin"
