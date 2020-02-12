@@ -72,6 +72,7 @@ alias l='gls -l --color=auto --group-directories-first'
 alias ls='gls -l --color=auto --group-directories-first'
 alias ll='gls -l --color=auto --group-directories-first'
 alias find='find . -name'
+alias du='du -h . -d1 | sort -h'
 
 # Aliases to make life easier
 alias texpad='open -a Texpad.app'

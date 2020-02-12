@@ -193,7 +193,7 @@ patch.force_edgecolor  : True   # True to always use edgecolor
 # 10 pt is the standard value.
 #
 text.usetex         : True
-font.sans-serif     : CMU Sans Serif
+#font.sans-serif     : CMU Sans Serif
 font.family         : sans-serif
 #font.style          : normal
 #font.variant        : normal
