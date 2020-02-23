@@ -21,11 +21,10 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 set runtimepath^=~/.vim/bundle/nerdtree.vim
 set runtimepath^=~/.vim/bundle/ack.vim
 
-" nerdtree [toggle with Ctrl+T and turn on by default, including new tabs]
-autocmd vimenter * NERDTree
+" nerdtree [toggle with Ctrl+T and turn on by default, including new tabs, close if last tab]
 autocmd VimEnter * if !argc() | NERDTree | endif
-autocmd BufEnter * if !argc() | NERDTreeMirror | endif
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+autocmd BufWinEnter * if !argc() | NERDTreeMirror | endif
+autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 nmap <C-T> :NERDTreeToggle<CR>
 
 " ctrl-p [ignore gitignore files and reload every time]
