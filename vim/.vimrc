@@ -3,7 +3,7 @@ syntax on
 set background=light
 set cursorline
 set number
-set mouse=a
+set mouse=n
 set nowrap
 set ruler
 set showmatch
