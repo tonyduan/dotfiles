@@ -125,3 +125,7 @@ fi
 
 # fix for pip to work properly
 export LC_ALL=C
+
+# turn off X11 in remote vim sessions
+alias vim='vim -X'
+

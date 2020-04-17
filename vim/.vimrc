@@ -3,12 +3,15 @@ syntax on
 set background=light
 set cursorline
 set number
-set mouse=n
+set mouse=ni
+set ttymouse=sgr
 set nowrap
 set ruler
 set showmatch
 set colorcolumn=101
+set clipboard=unnamed
 autocmd BufWritePre * %s/\s+$//e 
+colorscheme Tomorrow-Night 
 
 " python
 set tabstop=4

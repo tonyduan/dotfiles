@@ -77,6 +77,7 @@ alias du='du -h . -d1 | sort -h'
 # Aliases to make life easier
 alias texpad='open -a Texpad.app'
 alias typora='open -a Typora.app'
+alias finder='open -a Finder.app .'
 alias gpush='git push origin master'
 alias gpull='git pull origin master'
 alias gamend='git commit --amend'
