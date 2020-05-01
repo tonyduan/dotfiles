@@ -29,6 +29,7 @@ autocmd VimEnter * if !argc() | NERDTree | endif
 autocmd BufWinEnter * if !argc() | NERDTreeMirror | endif
 autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 nmap <C-T> :NERDTreeToggle<CR>
+let NERDTreeIgnore = ['\.pyc$']
 
 " ctrl-p [ignore gitignore files and reload every time]
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
