@@ -62,15 +62,15 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration below 
+# User configuration below
 
 # Preferred editor for local and remote sessions
 export EDITOR='vim'
 
 # Fix the behavior of ls and find
-alias l='gls -l --color=auto --group-directories-first'
-alias ls='gls -l --color=auto --group-directories-first'
-alias ll='gls -l --color=auto --group-directories-first'
+alias l='gls -lh --color=auto --group-directories-first'
+alias ls='gls -lh --color=auto --group-directories-first'
+alias ll='gls -lh --color=auto --group-directories-first'
 alias find='find . -name'
 alias du='du -h . -d1 | sort -h'
 

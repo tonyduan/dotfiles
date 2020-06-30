@@ -88,9 +88,10 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -alF'
+alias l='ls -lh --color=auto --group-directories-first'
+alias ls='ls -lh --color=auto --group-directories-first'
+alias ll='ls -lh --color=auto --group-directories-first'
 alias la='ls -A'
-alias l='ls -CF'
 alias gpull='git pull origin master'
 alias gpush='git push origin master'
 
@@ -118,7 +119,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# attach tmux automatically 
+# attach tmux automatically
 if [[ -z "$TMUX" ]] && [ "$SSH_CONNECTION" != "" ]; then
     tmux -CC attach-session -t ssh_tmux || tmux -CC new-session -s ssh_tmux
 fi
