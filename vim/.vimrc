@@ -57,6 +57,7 @@ nnoremap <C-J> :tabnext<CR>
 noremap Y ^y$
 
 " sync clipboard over ssh, thanks to leeren chang
+" [this should be un-commented on your remote machine]
 "function! Osc52Yank()
 "    let buffer=system('base64 -w0', @0)
 "    let buffer=substitute(buffer, "\n$", "", "")
