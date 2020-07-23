@@ -41,6 +41,7 @@ let g:ctrlp_prompt_mappings = {
 
 " vim-flake8
 autocmd FileType python map <buffer> <C-F> :call flake8#Flake8()<CR>
+let g:flake8_show_in_gutter=1
 
 " ack [use ag, and prevent from jumping to first result automatically]
 if executable('ag')
