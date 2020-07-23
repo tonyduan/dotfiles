@@ -58,6 +58,10 @@ let g:ack_mappings = {
 nnoremap <C-K> :tabprevious<CR>
 nnoremap <C-J> :tabnext<CR>
 
+" quickfix navigation
+nnoremap <C-M> :cn<CR>
+nnoremap <C-N> :cp<CR>
+
 " copy the current line into clipboard, without preceding whitespace
 noremap Y ^y$
 
