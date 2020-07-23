@@ -23,6 +23,7 @@ set autoindent
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set runtimepath^=~/.vim/bundle/nerdtree.vim
 set runtimepath^=~/.vim/bundle/ack.vim
+set runtimepath^=~/.vim/bundle/vim-flake8.vim
 
 " nerdtree [toggle with Ctrl+T and turn on by default, including new tabs, close if last tab]
 autocmd VimEnter * if !argc() | NERDTree | endif
@@ -37,6 +38,9 @@ let g:ctrlp_use_caching = 0
 let g:ctrlp_prompt_mappings = {
     \ 'AcceptSelection("e")': ['<2-LeftMouse>'],
     \ 'AcceptSelection("t")': ['<cr>'], }
+
+" vim-flake8
+autocmd FileType python map <buffer> <C-F> :call flake8#Flake8()<CR>
 
 " ack [use ag, and prevent from jumping to first result automatically]
 if executable('ag')
@@ -57,7 +61,7 @@ nnoremap <C-J> :tabnext<CR>
 noremap Y ^y$
 
 " sync clipboard over ssh, thanks to leeren chang
-" [this should be un-commented on your remote machine]
+" [this should be un-commented on the remote machine, commented on the local machine]
 "function! Osc52Yank()
 "    let buffer=system('base64 -w0', @0)
 "    let buffer=substitute(buffer, "\n$", "", "")
