@@ -54,9 +54,12 @@ let g:ack_autofold_results = 1
 nnoremap <C-K> :tabprevious<CR>
 nnoremap <C-J> :tabnext<CR>
 
+" windows navigation
+nnoremap <C-A> :wincmd w<CR>
+
 " quickfix navigation
-nnoremap <C-M> :cn<CR>
-nnoremap <C-N> :cp<CR>
+nnoremap <C-N> :cn<CR>
+nnoremap <C-M> :cp<CR>
 nnoremap <C-C> :ccl<CR>
 
 " copy the current line into clipboard, without preceding whitespace
