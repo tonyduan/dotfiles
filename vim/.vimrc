@@ -48,19 +48,16 @@ if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
 cnoreabbrev ack Ack!
-let g:ackhighlight = 0
 let g:ack_autofold_results = 1
-let g:ack_mappings = {
-    \  'v':  '<C-W><CR><C-W>L<C-W>p<C-W>J<C-W>p',
-     \ 'gv': '<C-W><CR><C-W>L<C-W>p<C-W>J', }
 
-" tabs
+" tabs navigation
 nnoremap <C-K> :tabprevious<CR>
 nnoremap <C-J> :tabnext<CR>
 
 " quickfix navigation
 nnoremap <C-M> :cn<CR>
 nnoremap <C-N> :cp<CR>
+nnoremap <C-C> :ccl<CR>
 
 " copy the current line into clipboard, without preceding whitespace
 noremap Y ^y$
