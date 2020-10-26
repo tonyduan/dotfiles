@@ -38,8 +38,9 @@ let g:ctrlp_prompt_mappings = {
     \ 'AcceptSelection("e")': ['<2-LeftMouse>'],
     \ 'AcceptSelection("t")': ['<cr>'], }
 
-" syntastic
+" syntastic (disabled by default until C-F)
 autocmd FileType python map <buffer> <C-F> :call SyntasticCheck()<CR>
+autocmd VimEnter * SyntasticToggleMode
 let g:syntastic_python_checkers = ['pylint']
 let g:syntastic_always_populate_loc_list = 1
 nnoremap <C-N> :lnext<CR>
