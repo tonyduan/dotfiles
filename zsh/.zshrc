@@ -81,9 +81,12 @@ alias finder='open -a Finder.app .'
 alias gpush='git push origin master'
 alias gpull='git pull origin master'
 alias gamend='git commit --amend'
+alias python='python3'
+alias gg='git grep'
 
 # Path fixes
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/tony/.vimpkg/bin"
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 export RETICULATE_PYTHON="/usr/local/bin/python3"
 
+[ -s "/Users/tony/.scm_breeze/scm_breeze.sh" ] && source "/Users/tony/.scm_breeze/scm_breeze.sh"
