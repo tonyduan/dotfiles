@@ -78,15 +78,13 @@ alias du='du -h . -d1 | sort -h'
 alias texpad='open -a Texpad.app'
 alias typora='open -a Typora.app'
 alias finder='open -a Finder.app .'
-alias gpush='git push origin master'
-alias gpull='git pull origin master'
-alias gamend='git commit --amend'
 alias python='python3'
 alias gg='git grep'
 
 # Path fixes
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/tony/.vimpkg/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:"
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 export RETICULATE_PYTHON="/usr/local/bin/python3"
 
+# SCM Breeze
 [ -s "/Users/tony/.scm_breeze/scm_breeze.sh" ] && source "/Users/tony/.scm_breeze/scm_breeze.sh"

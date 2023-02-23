@@ -92,8 +92,6 @@ alias l='ls -lh --color=auto --group-directories-first'
 alias ls='ls -lh --color=auto --group-directories-first'
 alias ll='ls -lh --color=auto --group-directories-first'
 alias la='ls -A'
-alias gpull='git pull origin master'
-alias gpush='git push origin master'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

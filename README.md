@@ -1,6 +1,6 @@
 ### Personal dotfiles and logs of installed packages.
 
-Last update: October 2020.
+Last update: February 2023.
 
 ---
 
@@ -14,7 +14,7 @@ stow [ package name here ] -t ~/
 
 This will symlink local dotfiles to the ones in this package.
 
-Note that for remote servers, only `git`, `bash`, and `vim` need too be stowed.
+Note that for remote servers, only `git`, `bash`, `vim`, `tmux` need too be stowed.
 
 Homebrew usage is the following:
 
