@@ -28,6 +28,7 @@ set runtimepath^=~/.vim/bundle/nerdtree.vim
 set runtimepath^=~/.vim/bundle/python-syntax.vim
 
 let g:python_highlight_all = 1
+let g:vim_markdown_math=1
 
 " nerdtree [toggle with Ctrl+T and turn on by default, including new tabs, close if last tab]
 nmap <C-T> :NERDTreeToggle<CR>
