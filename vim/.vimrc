@@ -2,7 +2,6 @@
 syntax on
 set background=light
 set cursorline
-set cursorcolumn
 set number
 set mouse=ni
 set ttymouse=sgr
@@ -56,6 +55,10 @@ nnoremap <C-J> :tabnext<CR>
 
 " windows navigation
 nnoremap <C-A> :wincmd w<CR>
+
+" function navigation
+autocmd FileType python nnoremap <buffer> [[ ?^class\\|^\s*def<CR>
+autocmd FileType python nnoremap <buffer> ]] /^class\\|^\s*def<CR>
 
 " copy the current line into clipboard, without preceding whitespace
 noremap Y ^y$
