@@ -25,6 +25,7 @@ set autoindent
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set runtimepath^=~/.vim/bundle/nerdtree.vim
 set runtimepath^=~/.vim/bundle/python-syntax.vim
+set runtimepath^=~/.vim/bundle/ale.vim
 
 let g:python_highlight_all = 1
 let g:vim_markdown_math=1
