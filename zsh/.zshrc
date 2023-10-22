@@ -68,23 +68,13 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='vim'
 
 # Fix the behavior of ls and find
-alias l='gls -lh --color=auto --group-directories-first'
-alias ls='gls -lh --color=auto --group-directories-first'
-alias ll='gls -lh --color=auto --group-directories-first'
-alias find='find . -name'
 alias du='du -h . -d1 | sort -h'
 
 # Aliases to make life easier
 alias texpad='open -a Texpad.app'
 alias typora='open -a Typora.app'
 alias finder='open -a Finder.app .'
-alias python='python3'
 alias gg='git grep'
-
-# Path fixes
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:"
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
-export RETICULATE_PYTHON="/usr/local/bin/python3"
 
 # SCM Breeze
 [ -s "/Users/tony/.scm_breeze/scm_breeze.sh" ] && source "/Users/tony/.scm_breeze/scm_breeze.sh"
