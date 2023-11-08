@@ -8,4 +8,4 @@
 	smudge = git lfs smudge %f
 	required = true
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/tony/.gitignore_global
