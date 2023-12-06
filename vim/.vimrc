@@ -59,6 +59,12 @@ autocmd FileType python nnoremap <buffer> ]] /^class\\|^\s*def<CR>
 " copy the current line into clipboard, without preceding whitespace
 noremap Y ^y$
 
+" colors to make vimdiff look nice
+hi DiffAdd ctermfg=Black ctermbg=LightGreen
+hi DiffChange ctermfg=Blue ctermbg=NONE
+hi DiffDelete ctermfg=Black ctermbg=LightRed
+hi DiffText ctermfg=Blue ctermbg=NONE
+
 " sync clipboard over ssh, thanks to leeren chang
 " [this should be un-commented on the remote machine, commented on the local machine]
 "function! Osc52Yank()
