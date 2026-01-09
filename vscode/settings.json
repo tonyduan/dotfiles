@@ -1,0 +1,33 @@
+{
+    "chat.commandCenter.enabled": false,
+    "editor.fontSize": 13,
+    "debug.console.fontSize": 13,
+    "terminal.integrated.fontSize": 13,
+    "chat.editor.fontSize": 13,
+    "editor.fontFamily": "Inconsolata-dz,Menlo, Monaco, 'Courier New', monospace",
+    "vim.vimrc.enable": true,
+    "vim.useSystemClipboard": true,
+    "workbench.colorTheme": "Tomorrow Night Eighties",
+    "breadcrumbs.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "editor.minimap.enabled": false,
+    "window.title": "",
+    "window.commandCenter": false,
+    "files.trimTrailingWhitespace": true,
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    "window.zoomLevel": 0.3,
+    "workbench.colorCustomizations": {
+        "tab.activeBorderTop": "#ff0000",
+        "tab.activeBorder": "#007acc",
+        "tab.activeBackground": "#1e1e1e",
+        "tab.activeForeground": "#ffffff",
+        "tab.inactiveBackground": "#2d2d2d",
+        "tab.inactiveForeground": "#808080"
+    },
+    "problems.decorations.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "scm.diffDecorations": "none",
+    "workbench.activityBar.location": "hidden",
+    "currentFilePath.defaultPathStartsFrom": "workSpace",
+    "editor.lineHeight": 1.6
+}

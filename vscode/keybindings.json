@@ -1,0 +1,49 @@
+[
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "shift+cmd+enter",
+        "command": "workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "alt+cmd+b",
+        "command": "-workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.action.focusAuxiliaryBar"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "workbench.action.closeQuickOpen",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "workbench.files.action.focusOpenEditorsView",
+        "when": "workbench.explorer.openEditorsView.active"
+    },
+    {
+        "key": "cmd+k e",
+        "command": "-workbench.files.action.focusOpenEditorsView",
+        "when": "workbench.explorer.openEditorsView.active"
+    }
+]
